@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+    height: 100%;
+    background: radial-gradient(farthest-corner at 40px 40px,
+            whitesmoke 0%,
+            rgb(113, 111, 111) 100%);
+
+}
